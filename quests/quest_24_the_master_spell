@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+#function to ask the user for their age and return it
+def ask_for_age():
+    age = int(input("How old are you? "))
+    return age
+
+#function to check if the person can vote
+def can_they_vote(age):
+    if age >= 18:
+        print("You can vote!")
+    else:
+        print("It's unfortunate, you are too young to vote.")
+
+#call the first function, then pass its result to the second
+user_age = ask_for_age()
+can_they_vote(user_age)

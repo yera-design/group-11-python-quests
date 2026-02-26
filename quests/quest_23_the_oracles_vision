@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+#function to calculate the area of a rectangle
+def calculate_area(length, width):
+    area = length * width
+    return area
+
+#first rectangle
+area1 = calculate_area(7, 5)
+print("The area of the first rectangle is:", area1)
+
+#second rectangle
+area2 = calculate_area(13, 6)
+print("The area of the second rectangle is:", area2)
