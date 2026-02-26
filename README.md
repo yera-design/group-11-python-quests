@@ -9,7 +9,43 @@ They include 30 quests, ranging from simple print statements to building interac
 
 ⸻
 
-🗂 List of Quests
+� Project Structure
+
+```
+group-11-python-quests/
+├── README.md
+└── quests/
+    ├── quest_01_first_spell.py
+    ├── quest_02_the_naming_ceremony.py
+    ├── quest_03_the_treasure_chest.py
+    ├── quest_04_the_town_tier.py
+    ├── quest_05_the_echoing_cave.py
+    ├── quest_06_the_fortune_teller.py
+    ├── quest_07_the_magic_number_converter.py
+    ├── quest_08_the_potion_brewer.py
+    ├── quest_09_the_greedy_goblin.py
+    ├── quest_10_the_architect's_blueprint.py
+    ├── quest_11_guardian_of_the_bridge.py
+    ├── quest_12_two_path_cave.py
+    ├── quest_13_maze_of_many_choices.py
+    ├── quest_14_logical_gatekeeper.py
+    ├── quest_15_nested_riddle.py
+    ├── quest_16_marching_ants.py
+    ├── quest_17_endless_staircase.py
+    ├── quest_18_loop_of_riddles.py
+    ├── quest_19_countdown.py
+    ├── quest_20_even_number_forager.py
+    ├── quest_21_the_reusable_incantation.py
+    ├── quest_22_the_personalized_scroll.py
+    ├── quest_23_the_oracles_vision.py
+    ├── quest_24_the_master_spell.py
+    ├── quest_25_the_number_wizard.py
+    ├── quest_26_the_simple_calculator.py
+    ├── quest_28_the_adventure_begins.py
+    └── quest_29_the_code_breaker.py
+```
+
+⸻
 
 Level 1: Spells & Variables
 	1.	Your First Spell – Use print() to display a welcome message.
