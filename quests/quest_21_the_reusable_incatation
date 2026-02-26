@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # function to greet the adventurer
 def greet_adventurer():
-print("Hello adventurer, welcome to the quest.")
+    print("Hello adventurer, welcome to the quest.")
 
 #calling the function three times
 greet_adventurer()

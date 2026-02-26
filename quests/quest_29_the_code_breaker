@@ -1,0 +1,22 @@
+#This is assigning the variable secret_code the secreat coe the user must guess
+secret_code=42
+#I initiated a variable attempts to zero since i want to count from zero to a certain mumber thats why it is set to zero
+attempts=0
+# To allow the user the three steps the process muct repeat it self using a loop in which this case i used a while loop.
+while attempts <3:
+    #ask the user to inter an integer secret code
+    guess = int(input("Enter the secret_code: "))
+    # check if the guess matches the secreat code
+    if guess == secret_code:
+        #If it is true then it prints the output "Access granted!" as it is 
+        print("Access granted!")
+        #Then it stops the loop if it is correct
+        break
+    #otherwise it continues while printing "wrong code "
+    else:
+        print("wrong code.")
+        # This statement shows the increase in number of attempts untill it reaches the maxmumu number needed 
+        attempts += 1
+        # if the user doesn't get it within 3 attempts then the system prints out "Access Denied. Goodbyee!"
+if attempts == 3:
+    print ("Access Denied. Goodbyee!")
